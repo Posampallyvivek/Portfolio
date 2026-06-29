@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Posampally Vivek, a Full Stack Web Developer. View my projects, skills, certificates, and connect with me.">
+    <meta name="keywords" content="Vivek Portfolio, Posampally Vivek, Full Stack Developer, Web Development, React, Node.js, ServiceNow, Salesforce, Java Full Stack">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Premium Font pairing: Outfit for headings, Plus Jakarta Sans for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+    <title>Posampally Vivek | Full Stack Web Developer Portfolio</title>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Floating Navigation Header -->
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="#home">VIVEK<span>.</span></a>
+                </div>
+                
+                <ul class="nav-bar" id="navBar">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="mode-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fa-regular fa-moon" id="themeIcon"></i>
+                    </button>
+                    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <i class="fa-solid fa-bars" id="menuIcon"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero / Home Section -->
+            <section id="home" class="home section">
+                <div class="home-main">
+                    <div class="home-heading">
+                        <p class="hi">Hi, I'm</p>
+                        <h1 class="hero-title">Vivek</h1>
+                        <h2 class="hero-subtitle">Full Stack Web Developer</h2>
+                        <p class="opacity hero-desc">Building responsive web applications with clean code, modern design, and a strong focus on performance and user experience.</p>
+                    </div>
+                    <div class="home-btn-group">
+                        <a href="https://drive.google.com/file/d/1QRzqn50ca4eykgLiNZNoGmfNH_6Jccmv/view?usp=sharing" class="btn primary-btn">Download Resume <i class="fa-solid fa-download"></i></a>
+                        <a href="#projects" class="btn secondary-btn">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="home-media">
+                        <a href="https://github.com/Posampallyvivek" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/posampally-vivek" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:posampallyvivek@gmail.com" aria-label="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/p___v_i_v_e_k___" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="home-img-wrapper">
+                    <div class="img-glow-bg"></div>
+                    <img src="Img1.jpg" alt="Posampally Vivek Portrait" class="hero-img">
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about section">
+                <div class="about-img-wrapper">
+                    <div class="img-glow-bg-secondary"></div>
+                    <img src="Img2.jpg" alt="Vivek Working" class="about-img">
+                </div>
+                <div class="about-content">
+                    <div class="section-title">
+                        <h3>ABOUT ME</h3>
+                        <h2><span>Who</span> I Am</h2>
+                    </div>
+                    <p class="opacity">I'm a Computer Science graduate with a passion for full-stack web development. I enjoy transforming ideas into fast, responsive, and scalable web applications while continuously expanding my technical skills.</p>
+                    
+                    <div class="card-grid">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="card-info">
+                                <h3>B.Tech CSE</h3>
+                                <p class="opacity">2022 - 2025</p>
+                            </div>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <div class="card-info">
+                                <h3>Compliance Assistant</h3>
+                                <p class="opacity">Professional Experience</p>
+                            </div>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <div class="card-info">
+                                <h3>MERN Stack</h3>
+                                <p class="opacity">Continuous Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills section">
+                <div class="section-title-center">
+                    <h3>MY SKILLS</h3>
+                    <h2><span>Technical</span> Expertise</h2>
+                </div>
+                <div class="skills-layout">
+                    <div class="skills-info">
+                        <p class="opacity">My skill set spans front-end development, JavaScript, databases, and cloud technologies. I enjoy building fast, responsive, and scalable applications while following best practices for performance and code quality.</p>
+                        <div class="skills-badge-list">
+                            <span class="skills-badge">Responsive Design</span>
+                            <span class="skills-badge">API Integration</span>
+                            <span class="skills-badge">Database Design</span>
+                            <span class="skills-badge">Version Control</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <img src="html-5.png" alt="HTML5 logo">
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="css-3.png" alt="CSS3 logo">
+                            <p>CSS3</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="js.png" alt="JavaScript logo">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="physics.png" alt="React logo">
+                            <p>React</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="bootstrap.png" alt="Bootstrap logo">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="tailwindcss-.png" alt="Tailwind CSS logo">
+                            <p>Tailwind CSS</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="programing.png" alt="Node.js logo">
+                            <p>Node.js</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="express-js.png" alt="Express.js logo">
+                            <p>Express.js</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="Python.png" alt="Python logo">
+                            <p>Python</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="sql.png" alt="SQL logo">
+                            <p>SQL</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="git.png" alt="Git logo">
+                            <p>Git</p>
+                        </div>
+                        <div class="skill-card">
+                            <img src="visual-studio-code.png" alt="VS Code logo">
+                            <p>VS Code</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects section">
+                <div class="section-title">
+                    <h3>MY WORKS</h3>
+                    <h2><span>Featured</span> Projects</h2>
+                </div>
+                <div class="projects-container">
+                    <article class="project-card">
+                        <div class="project-img-container">
+                            <img src="personal portfolio.png" alt="Personal Portfolio Showcase Screen">
+                            <div class="project-overlay">
+                                <a href="#home" class="overlay-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3>Personal Portfolio</h3>
+                            <p class="opacity project-description">A premium, highly interactive, and responsive portfolio designed using glassmorphism. Features a clean dark mode, custom certificate lightbox viewer, mobile navigation drawer, and animated theme transitions. Built entirely with clean semantic HTML5, modern vanilla CSS, and vanilla JS.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>Vanilla CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-sm primary-btn">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm secondary-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certificates" class="certificates section">
+                <div class="section-title">
+                    <h3>CREDENTIALS</h3>
+                    <h2><span>My</span> Certifications</h2>
+                </div>
+                <div class="certificates-grid">
+                    <div class="cert-card">
+                        <div class="cert-img-wrapper">
+                            <img src="oracle _page-0001.jpg" alt="Oracle Academy Database Foundations Certificate Image">
+                        </div>
+                        <div class="cert-details">
+                            <h3>Oracle Database Foundations</h3>
+                            <p class="opacity">Completed advanced database fundamentals covering SQL, relational schemas, database modeling, and optimization techniques.</p>
+                            <button class="btn btn-sm view-cert-btn" data-cert-src="oracle _page-0001.jpg" data-cert-title="Oracle Academy Database Foundations">View Certificate <i class="fa-solid fa-expand"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-img-wrapper">
+                            <img src="Salesforce_page-0001.jpg" alt="Salesforce Developer Virtual Internship Certificate Image">
+                        </div>
+                        <div class="cert-details">
+                            <h3>Salesforce Developer Internship</h3>
+                            <p class="opacity">8-week intensive hands-on development covering Apex programming, Lightning Web Components (LWC), and platform automation flow.</p>
+                            <button class="btn btn-sm view-cert-btn" data-cert-src="Salesforce_page-0001.jpg" data-cert-title="Salesforce Developer Virtual Internship">View Certificate <i class="fa-solid fa-expand"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img-wrapper">
+                            <img src="html_page-0001.jpg" alt="Infosys Course Completion Certificate Image">
+                        </div>
+                        <div class="cert-details">
+                            <h3>Infosys Web Development</h3>
+                            <p class="opacity">Earned for completing comprehensive training in responsive web design, covering advanced CSS frameworks, JS, and responsive layouts.</p>
+                            <button class="btn btn-sm view-cert-btn" data-cert-src="html_page-0001.jpg" data-cert-title="Infosys Web Development Training">View Certificate <i class="fa-solid fa-expand"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img-wrapper">
+                            <img src="ServiceNowCAD_page-0001.jpg" alt="ServiceNow Certified Application Developer Certificate Image">
+                        </div>
+                        <div class="cert-details">
+                            <h3>ServiceNow CAD Course</h3>
+                            <p class="opacity">Comprehensive certification training on custom application design, client-side/server-side scripting, flow designers, and UI policies.</p>
+                            <button class="btn btn-sm view-cert-btn" data-cert-src="ServiceNowCAD_page-0001.jpg" data-cert-title="ServiceNow Certified Application Developer">View Certificate <i class="fa-solid fa-expand"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-img-wrapper">
+                            <img src="java fullstack.jpg" alt="Wipro Digital Skills Readiness Program Certificate Image">
+                        </div>
+                        <div class="cert-details">
+                            <h3>Wipro Java Full Stack</h3>
+                            <p class="opacity">TalentNext readiness program completing rigorous Java core principles, OOP design, Hibernate database mapping, and Spring MVC.</p>
+                            <button class="btn btn-sm view-cert-btn" data-cert-src="java fullstack.jpg" data-cert-title="Wipro Java Full Stack Readiness">View Certificate <i class="fa-solid fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact section">
+                <div class="section-title">
+                    <h3>GET IN TOUCH</h3>
+                    <h2><span>Let's</span> Connect</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 class="contact-title">Have a project in mind or want to collaborate?</h3>
+                        <p class="opacity">Feel free to drop a message through the form or reach out through my active social channels. I'm always open to discussing new web development opportunities, engineering ideas, or system designs.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <p class="method-label">Email Me</p>
+                                    <a href="mailto:vivek@example.com" class="method-value">posampallyvivek@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <p class="method-label">Location</p>
+                                    <p class="method-value">Hyderabad, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-media contact-media">
+                            <a href="https://github.com/Posampallyvivek" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/posampally-vivek" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/p___v_i_v_e_k___" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Posampally Vivek. All Rights Reserved. Crafted with passion.</p>
+        </footer>
+    </div>
+
+    <!-- Certificate Lightbox Modal Overlay -->
+    <div id="certificateModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <h3 id="modalTitle" class="modal-title">Certificate</h3>
+            <div class="modal-image-container">
+                <img id="modalImage" src="" alt="Zoomed Certificate View">
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Toast Notification -->
+    <div id="toast" class="toast" role="alert" aria-live="assertive">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <!-- Core Script Logic -->
+    <script>
+        // 1. Theme Toggling with LocalStorage Cache
+        const themeToggleBtn = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        
+        // Initial setup based on saved config
+        if (localStorage.getItem('portfolio-theme') === 'dark') {
+            document.body.classList.add('dark');
+            themeIcon.className = 'fa-solid fa-sun';
+        } else {
+            document.body.classList.remove('dark');
+            themeIcon.className = 'fa-regular fa-moon';
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+            const isDark = document.body.classList.contains('dark');
+            themeIcon.className = isDark ? 'fa-solid fa-sun' : 'fa-regular fa-moon';
+            localStorage.setItem('portfolio-theme', isDark ? 'dark' : 'light');
+        });
+
+        // 2. Mobile Responsive Menu Toggle
+        const menuToggleBtn = document.getElementById('menuToggle');
+        const menuIcon = document.getElementById('menuIcon');
+        const navBar = document.getElementById('navBar');
+        
+        menuToggleBtn.addEventListener('click', () => {
+            const isExpanded = menuToggleBtn.getAttribute('aria-expanded') === 'true';
+            menuToggleBtn.setAttribute('aria-expanded', !isExpanded);
+            navBar.classList.toggle('active');
+            menuIcon.className = isExpanded ? 'fa-solid fa-bars' : 'fa-solid fa-xmark';
+        });
+
+        // Close menu on link click
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navBar.classList.remove('active');
+                menuToggleBtn.setAttribute('aria-expanded', 'false');
+                menuIcon.className = 'fa-solid fa-bars';
+            });
+        });
+
+        // 3. Highlight Active Navigation Links on Scroll
+        const sections = document.querySelectorAll('section');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // 4. Certificate Lightbox Modal Controller
+        const modal = document.getElementById('certificateModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalCloseBtn = document.getElementById('modalClose');
+        const modalOverlay = document.querySelector('.modal-overlay');
+        const viewCertButtons = document.querySelectorAll('.view-cert-btn');
+
+        viewCertButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const imgSrc = button.getAttribute('data-cert-src');
+                const imgTitle = button.getAttribute('data-cert-title');
+                
+                modalImg.src = imgSrc;
+                modalTitle.textContent = imgTitle;
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Stop body scrolling
+            });
+        });
+
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+
+        modalCloseBtn.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', closeModal);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('active')) {
+                closeModal();
+            }
+        });
+
+        // 5. Contact Form Submission with Google Sheets Integration
+        // PASTE YOUR DEPLOYED GOOGLE APPS SCRIPT WEB APP URL HERE
+        const GOOGLE_SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby7MJkI_F4ezLd7y5bM8J4FNOewiDfAmHVLXUx1wxK4YkeysazeSVF-4vjWNIf4Tu5WmA/exec"; 
+
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = contactForm.querySelector('.submit-btn');
+        const toast = document.getElementById('toast');
+        const toastMsg = document.getElementById('toastMessage');
+        const toastIcon = toast.querySelector('i');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Collect Form Details
+            const name = document.getElementById('contactName').value;
+            const email = document.getElementById('contactEmail').value;
+            const message = document.getElementById('contactMessage').value;
+
+            // Check if script URL is configured
+            if (!GOOGLE_SHEET_SCRIPT_URL) {
+                showToast(
+                    "Google Sheet script URL is not configured. Please see instructions in implementation_plan.md.",
+                    "fa-solid fa-triangle-exclamation",
+                    "#eab308", // Yellow warning color
+                    "#0f172a"
+                );
+                console.warn(
+                    "Setup Required: To save form submissions to Google Sheets, copy the Apps Script code from implementation_plan.md, deploy it in Google Sheets as a Web App, and paste the Web App URL into the GOOGLE_SHEET_SCRIPT_URL variable in Index.html."
+                );
+                return;
+            }
+
+            // Update submit button loading state
+            const originalBtnContent = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = `Sending... <i class="fa-solid fa-circle-notch fa-spin"></i>`;
+
+            // POST to Google Sheet Script
+            fetch(GOOGLE_SHEET_SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors', // Bypasses CORS browser pre-flight checks for redirect endpoints
+                headers: {
+                    'Content-Type': 'plain/text;charset=utf-8'
+                },
+                body: JSON.stringify({ name: name, email: email, message: message })
+            })
+            .then(() => {
+                // Since mode is 'no-cors', the response type will be opaque (status 0).
+                // We assume successful execution if the promise resolves.
+                showToast(
+                    `Thank you, ${name}! Your message has been sent successfully.`,
+                    "fa-solid fa-circle-check",
+                    "#10b981", // Success green
+                    "#ffffff"
+                );
+                contactForm.reset();
+            })
+            .catch((error) => {
+                console.error("Submission Error:", error);
+                showToast(
+                    "Something went wrong. Please try again later or email directly.",
+                    "fa-solid fa-circle-xmark",
+                    "#ef4444", // Error red
+                    "#ffffff"
+                );
+            })
+            .finally(() => {
+                // Restore button state
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnContent;
+            });
+        });
+
+        // Function to show customizable toasts
+        function showToast(message, iconClass, iconColor, textColor) {
+            toastMsg.textContent = message;
+            toastIcon.className = iconClass;
+            toastIcon.style.color = iconColor;
+            if (textColor) {
+                toast.style.setProperty('--toast-text', textColor);
+            }
+            
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 4500);
+        }
+    </script>
+</body>
+</html>
