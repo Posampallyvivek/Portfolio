@@ -596,6 +596,7 @@ img {
 /* 10. Projects Section */
 .projects-container {
     width: 100%;
+    gap:1.5rem;
 }
 
 .project-card {
@@ -606,7 +607,6 @@ img {
     overflow: hidden;
     box-shadow: var(--shadow-md);
     transition: var(--transition-normal);
-    gap: 1.5rem;
 }
 
 .project-card:hover {
