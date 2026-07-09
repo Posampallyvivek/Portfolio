@@ -596,7 +596,9 @@ img {
 /* 10. Projects Section */
 .projects-container {
     width: 100%;
-    gap:1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .project-card {
